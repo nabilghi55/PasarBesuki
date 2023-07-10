@@ -1,0 +1,14 @@
+.active{
+  /* border-bottom: 3px solid #76CA71; */
+}
+.filter{
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.4));
+}
+.text{
+  color: #000000;
+
+text-shadow: 0px 4px 7px #76CA71;
+}
+.btn{
+  background-color: #76CA71;
+}
