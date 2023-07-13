@@ -7,7 +7,7 @@ const Deskripsi = () => {
   return (
     <div id="#home" className="">
       <div className="pt-10 px-5 mb-20 ">
-        <div className="text-center justify-center border ">
+        <div className="text-center justify-center  ">
           <div className="  md:px-20  lg:mt-0 mt-10  2xl:ml-28">
             <h1 className="md:text-5xl text-4xl text md:pt-28">
               Selamat datang di  Pasar Besuki
