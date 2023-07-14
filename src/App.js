@@ -9,7 +9,7 @@ import Market from './components/Article/Market';
 
 function App() {
   return (
-    <div className="app">
+    <div className="app bg-white">
       <Routes>
         <Route path="/"element={<Home/>}></Route>
         <Route path='/wisata'element={<Usaha/>}></Route>
