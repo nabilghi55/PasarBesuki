@@ -2,11 +2,9 @@
 
 import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
-import Logo from "./assetsLogo/logo.png";
 import "./style.css";
 import { useWindowScroll } from "react-use";
-import { Link, animateScroll as scroll } from "react-scroll";
-import Dropdown from "./Dropdown";
+import { Link } from "react-scroll";
 import { Transition } from "@headlessui/react";
 
 export default function NavBar() {
@@ -104,7 +102,7 @@ export default function NavBar() {
                   offset={-70}
                   duration={500}
                 >
-                  <NavLink to="/">Tentang Kami</NavLink>
+                  <NavLink to="/Wisata">Wisata</NavLink>
                 </Link>
               </li>
               <li className="text-black hover:text-[#76CA71] nav-item cursor-pointer">

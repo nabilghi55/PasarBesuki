@@ -17,7 +17,7 @@ const Card = () => {
             </div>
             <div>
               <h1 className='px-10 text-xl text-[#0E9D06] mt-10 text-'>
-                Eduwisata <br /> Galoo galoo <br /> land
+               Pantai Midodaren
               </h1>
             </div>
             <div>

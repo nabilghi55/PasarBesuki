@@ -4,12 +4,13 @@ import Garis from "./garis.png";
 import Card from "./Card";
 import Form from "./Shop/Form";
 import Footer from "../Footer";
+import ScrollOnTop from "../../pages/ScrollOnTop";
 
 export default function Market() {
   return (
     <>
       <NavBar />
-
+      <ScrollOnTop/>
       <div className=" ">
         <div className=" px-7 md:px-48 mt-10 ">
           <Form />
