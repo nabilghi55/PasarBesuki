@@ -18,8 +18,8 @@ const Hubungi = () => {
           <img className="w-full" src={hubungi} alt="" />
         </div>
         <div data-aos="zoom-in">
-          <div className="text-center border-2 border-white">
-            <h1 className="text-4xl font-extrabold border-t-4 border-white z-20 relative -mt-1">
+          <div className="text-center border-white">
+            <h1 className="text-4xl font-extrabold z-20 relative -mt-1">
               Hubungi Kami
             </h1>
           </div>

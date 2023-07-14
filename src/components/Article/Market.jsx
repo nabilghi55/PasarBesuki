@@ -10,7 +10,7 @@ export default function Market() {
   return (
     <>
       <NavBar />
-      <ScrollOnTop/>
+      <ScrollOnTop />
       <div className=" ">
         <div className=" px-7 md:px-48 mt-10 ">
           <Form />
@@ -20,7 +20,7 @@ export default function Market() {
         </div>
         <div className="bg-[#76CA71] mt-10 w-3/4 mx-auto py-5">
           <h1 className="text-center text-2xl font-bold">
-            Customer's <span className="text-[#006D33]">Review</span>{" "}
+            Review <span className="text-[#006D33]">Kustomer</span>{" "}
           </h1>
         </div>
         <div className=" mt-10 lg:px-40 px-7 md:px-60 lg:flex lg:space-x-32 lg:space-y-0 space-y-10">

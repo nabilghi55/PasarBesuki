@@ -47,7 +47,7 @@ const Tujuan = () => {
   return (
     <div id="#pesan">
       {/* Your other code */}
-      <div  className="Tujuan sm:pt-[26rem] md:pt-48 pt-44 bg-white">
+      <div  className="Tujuan  bg-white">
         <div className="w-full">
           <img src={Gelombang} alt="" data-aos="" />
         </div>
