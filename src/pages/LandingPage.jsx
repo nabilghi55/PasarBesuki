@@ -21,15 +21,10 @@ const LandingPage = () => {
       <div className="landing ">
         <Header />
         <Navbar />
-        <section className=" md:h-72 h-96 bg-white " >
+        <section className=" h-96 bg-white ">
           <Deskripsi id="home" />
         </section>
-        <section
-          className="bg-[#] "
-          dark={false}
-          id="tentang"
-
-        >
+        <section className="bg-[#] " dark={false} id="tentang">
           <Tentang />
         </section>
         <section data-aos="" className="" dark={true} id="hubungi">
