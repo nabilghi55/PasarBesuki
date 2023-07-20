@@ -1,4 +1,4 @@
-
+// App.js
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/LandingPage'
@@ -11,12 +11,12 @@ function App() {
   return (
     <div className="app bg-white">
       <Routes>
-        <Route path="/"element={<Home/>}></Route>
-        <Route path='/wisata'element={<Usaha/>}></Route>
-        <Route path='/belanja'element={<Market/>}></Route>
-        <Route path='/Product'element={<Product/>}></Route>
+        <Route path="/" element={<Home />} />
+        <Route path='/wisata' element={<Usaha />} />
+        <Route path='/belanja/:id' element={<Market />} />
+        <Route path='/Product' element={<Product />} />
       </Routes>
-      </div>
+    </div>
   );
 }
 

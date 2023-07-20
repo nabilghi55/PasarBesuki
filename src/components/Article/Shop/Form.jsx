@@ -1,9 +1,28 @@
-import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
+import { Link, useParams } from "react-router-dom";
 import Star from "../Star/Star";
 
 const DetailProduk = () => {
-  //
+  const Desc = [
+    {
+      id: 1,
+      img:"Kacang" ,
+      title: "Phit Nut",
+      content:
+        "Kacang goreng mengandung karbohidrat yang memberikan energi. Ini dapat memberikan dorongan energi yang dibutuhkan untuk aktivitas sehari-hari atau sebagai camilan yang memuaskan.",
+    },
+    { id: 2, title: "Wiwit Hand Craft", content: "Content of Card 2" },
+    // Add more card data as needed
+    { id: 3, title: "Tiga Bersaudara Rizky Art", content: "Content of Card 3" },
+    { id: 4, title: "Harmer Marmer", content: "Content of Card 4" },
+  ];
+
+  const { id } = useParams();
+  const selectedProduct = Desc.find((product) => product.id === parseInt(id));
+
+  if (!selectedProduct) {
+    return <div>Product not found</div>;
+  }
 
   return (
     <>
@@ -19,17 +38,10 @@ const DetailProduk = () => {
           />
         </div>
         <div className=" lg:w-1/2 lg:ml-10 mt-10 lg:mt-0">
-          <h1 className="text-2xl font-bold text ">Kacang Goreng</h1>
-          <p>
-            Kacang goreng mengandung protein nabati yang baik untuk kesehatan
-            tubuh. 
-          </p>
+          <h1 className="text-2xl font-bold text ">{selectedProduct.title}</h1>
+          <p>{selectedProduct.content}</p>
           <h1 className="font-bold mt-5 ">Manfaat</h1>
-          <p className="">
-            Kacang goreng mengandung karbohidrat yang memberikan energi. Ini
-            dapat memberikan dorongan energi yang dibutuhkan untuk aktivitas
-            sehari-hari atau sebagai camilan yang memuaskan.
-          </p>
+          <p className=""></p>
           <div className="mt-5 flex space-x-20 w-fit p-4 shadow-lg">
             <div className="">
               <h1 className="">Harga</h1>

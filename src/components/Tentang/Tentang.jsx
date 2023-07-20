@@ -1,3 +1,4 @@
+// Tujuan.js
 import React from "react";
 import Card from "../Article/Card";
 import Gelombang from "./assetsTentang/gelombang (1).png";
@@ -9,17 +10,16 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const Tujuan = () => {
-  // Array of data for multiple cards
   const cardData = [
-    { id: 1, title: "Card 1", content: "Content of Card 1" },
-    { id: 2, title: "Card 2", content: "Content of Card 2" },
+    { id: 1, title: "Phit Nut", content: "Content of Card 1", img : "Kacang" },
+    { id: 2, title: "Wiwit Hand Craft", content: "Content of Card 2", img : "Handcraft" },
     // Add more card data as needed
-    { id: 3, title: "Card 3", content: "Content of Card 3" },
-    { id: 4, title: "Card 4", content: "Content of Card 4" },
-    { id: 5, title: "Card 5", content: "Content of Card 5" },
+    { id: 3, title: "Tiga Bersaudara Rizky Art", content: "Content of Card 3" , img : "Rizkyart"},
+    { id: 4, title: "Harmer Marmer", content: "Content of Card 4", img : "Kacang" },
+    
   ];
+ 
 
-  // Configuration options for react-slick
   const sliderSettings = {
     dots: true,
     infinite: true,
@@ -44,10 +44,13 @@ const Tujuan = () => {
     ],
   };
 
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
   return (
     <div id="#pesan">
-      {/* Your other code */}
-      <div  className="Tujuan mt-40  bg-white">
+      <div className="Tujuan mt-40  bg-white">
         <div className="w-full">
           <img src={Gelombang} alt="" data-aos="" />
         </div>
@@ -56,10 +59,16 @@ const Tujuan = () => {
         <div className="">
           <h1 className="text-4xl text-center font-bold">Produk</h1>
         </div>
-        <div className="box-border shadow-xl w-full ">
+        <div className="box-border shadow-xl w-full">
           <Slider {...sliderSettings} className="mx-auto">
             {cardData.map((card) => (
-              <Card key={card.id} title={card.title} content={card.content} />
+              <Card
+                img={card.img}
+                key={card.id}
+                id={card.id}
+                title={card.title}
+                content={card.content}
+              />
             ))}
           </Slider>
         </div>
