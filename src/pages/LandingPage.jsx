@@ -4,8 +4,8 @@ import React from "react";
 import "../style/style.css";
 import Navbar from "../components/Navbar/Navbar";
 import Deskripsi from "../components/Deskripsi";
-import Tentang from "../components/Tentang/Tentang";
-import Hubungi from "../components/Hubungi";
+import Tentang from "../components/Tentang/Usaha";
+import Hubungi from "../components/Usaha";
 import Footer from "../components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -24,10 +24,10 @@ const LandingPage = () => {
         <section className=" h-96 bg-white ">
           <Deskripsi id="home" />
         </section>
-        <section className="bg-[#] " dark={false} id="tentang">
+        <section className="" dark={false} id="tentang">
           <Tentang />
         </section>
-        <section data-aos="" className="" dark={true} id="hubungi">
+        <section className="" dark={true} id="hubungi">
           <Hubungi />
         </section>
         <section>

@@ -3,8 +3,9 @@ import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/LandingPage'
 import Usaha from './components/UsahaJasa/Usaha';
-import Product from './components/product/Product';
-import Market from './components/Article/Market';
+import Market from './components/UMKM/Market';
+import Tujuan from './components/Tentang/Usaha';
+import DetailUsaha from './DetailUsaha/DetailUsaha';
 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path='/wisata' element={<Usaha />} />
         <Route path='/belanja/:id' element={<Market />} />
-        <Route path='/Product' element={<Product />} />
+        <Route path='/belanja/' element={<DetailUsaha />} />
       </Routes>
     </div>
   );

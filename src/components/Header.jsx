@@ -13,15 +13,13 @@ const Header = () => {
       }}
     >
       <div className="items-center">
-        <img src={peta}  alt="" className="" />
+        <img src={peta} alt="" className="" />
       </div>
 
       <div className="text-center">
-        <h1 className="text-6xl text-center font-bold text ">
-          Pasar Besuki
-        </h1>
-        <p className="font-bold  text-black    font-[Poppins]">
-          Memperkuat  UMKM  dan Pesona Desa Besuki Tulungagung
+        <h1 className="text-5xl text-center font-bold text ">Pasar Besuki</h1>
+        <p className="font-bold  text-black  text-xl  font-[Poppins]">
+          Memperkuat UMKM dan Pesona Desa Besuki Tulungagung
         </p>
       </div>
     </div>
