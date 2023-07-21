@@ -77,7 +77,7 @@ const Tujuan = () => {
     <div id="#pesan">
       <div className="Tujuan mt-40  bg-white">
         <div className="w-full">
-          <img src={Gelombang} alt="" data-aos="" />
+          <img src={Gelombang} alt=""  />
         </div>
       </div>
       <div className="my-10 px-6 md:px-24">
