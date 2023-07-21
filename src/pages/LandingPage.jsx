@@ -24,7 +24,7 @@ const LandingPage = () => {
         <section className=" h-96 bg-white ">
           <Deskripsi id="home" />
         </section>
-        <section className="" dark={false} id="tentang">
+        {/* <section className="" dark={false} id="tentang">
           <Tentang />
         </section>
         <section className="" dark={true} id="hubungi">
@@ -32,7 +32,7 @@ const LandingPage = () => {
         </section>
         <section>
           <Footer />
-        </section>
+        </section> */}
       </div>
     </>
   );
