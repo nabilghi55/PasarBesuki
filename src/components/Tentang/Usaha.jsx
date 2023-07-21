@@ -77,7 +77,7 @@ const Tujuan = () => {
     <div id="#pesan">
       <div className="Tujuan mt-40  bg-white">
         <div className="w-full">
-          <img src={Gelombang} alt=""  />
+          <img src={Gelombang} alt="" />
         </div>
       </div>
       <div className="my-10 px-6 md:px-24">
@@ -85,18 +85,20 @@ const Tujuan = () => {
           <h1 className="text-4xl text-center font-bold">Produk</h1>
         </div>
         <div className="box-border shadow-xl w-full">
-          <Slider {...sliderSettings} className="mx-auto">
+          <div className="flex-wrap flex justify-center">
             {cardData.map((card) => (
-              <Card
-                linkTo={card.linkTo}
-                img={card.img}
-                key={card.id}
-                id={card.id}
-                title={card.title}
-                content={card.content}
-              />
+              <div className="mr-10 mt-4">
+                <Card
+                  linkTo={card.linkTo}
+                  img={card.img}
+                  key={card.id}
+                  id={card.id}
+                  title={card.title}
+                  content={card.content}
+                />
+              </div>
             ))}
-          </Slider>
+          </div>
         </div>
       </div>
     </div>
