@@ -49,9 +49,9 @@ const DetailProduk = () => {
       <h1 className="text text-4xl font-[Poppins] mb-5 font-bold text-center">
         PASAR BESUKI
       </h1>
-      <div className="lg:flex   text-black lg:px-20">
+      <div className="lg:flex   text-black lg:px-20 px-10">
         <div className=" justify-center mx-auto border-2">
-          <img src={selectedProduct.img} className="h-[44rem]" alt="" />
+          <img src={selectedProduct.img} className="lg:h-[44rem]" alt="" />
         </div>
         <div className=" lg:w-1/2 lg:ml-10 mt-10 lg:mt-0">
           <h1 className="text-2xl font-bold text ">{selectedProduct.title}</h1>

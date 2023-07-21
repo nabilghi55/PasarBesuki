@@ -44,31 +44,6 @@ const Tujuan = () => {
       linkTo: "/belanja/4",
     },
   ];
-
-  const sliderSettings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
-
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
@@ -76,7 +51,7 @@ const Tujuan = () => {
   return (
     <div id="#pesan">
       <div className="Tujuan mt-40  bg-white">
-        <div className="w-full">
+        <div className="w-full pt-40">
           <img src={Gelombang} alt="" />
         </div>
       </div>
@@ -84,10 +59,10 @@ const Tujuan = () => {
         <div className="">
           <h1 className="text-4xl text-center font-bold">Produk</h1>
         </div>
-        <div className="box-border shadow-xl w-full">
-          <div className="flex-wrap flex justify-center">
+        <div className=" justify-center mx-auto items-center  w-full ">
+          <div className="lg:flex-wrap lg:flex justify-center items-center text-center  mx-auto">
             {cardData.map((card) => (
-              <div className="mr-10 mt-4">
+              <div className="mr-10 mt-4  mx-auto">
                 <Card
                   linkTo={card.linkTo}
                   img={card.img}

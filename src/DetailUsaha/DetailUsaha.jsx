@@ -49,7 +49,7 @@ const DetailUsaha = () => {
   }, []);
 
   return (
-    <div id="#pesan">
+    <div id="#pesan" className="">
       <NavBar />
       <div className="pt-10 px-24">
         <h1 className="text text-center text-7xl ">UMKM</h1>
