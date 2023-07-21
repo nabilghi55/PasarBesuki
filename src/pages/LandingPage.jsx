@@ -5,7 +5,7 @@ import "../style/style.css";
 import Navbar from "../components/Navbar/Navbar";
 import Deskripsi from "../components/Deskripsi";
 import Tentang from "../components/Tentang/Tentang";
-import Hubungi from "../components/Hubungi";
+// import Hubungi from "../components/Hubungi";
 import Footer from "../components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
