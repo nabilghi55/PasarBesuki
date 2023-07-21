@@ -4,7 +4,7 @@ import React from "react";
 import "../style/style.css";
 import Navbar from "../components/Navbar/Navbar";
 import Deskripsi from "../components/Deskripsi";
-import Tentang from "../components/Tentang/Tentang";
+// import Tentang from "../components/Tentang";
 // import Hubungi from "../components/Hubungi";
 import Footer from "../components/Footer";
 import AOS from "aos";
