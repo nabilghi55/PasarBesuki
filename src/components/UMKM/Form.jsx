@@ -49,7 +49,7 @@ const DetailProduk = () => {
       <h1 className="text text-4xl font-[Poppins] mb-5 font-bold text-center">
         PASAR BESUKI
       </h1>
-      <div className="lg: flex   text-black lg:px-20">
+      <div className="lg:flex   text-black lg:px-20">
         <div className=" justify-center mx-auto border-2">
           <img src={selectedProduct.img} className="h-[44rem]" alt="" />
         </div>
