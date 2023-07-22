@@ -4,7 +4,6 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './pages/LandingPage'
 import Usaha from './components/UsahaJasa/Usaha';
 import Market from './components/UMKM/Market';
-import Tujuan from './components/Tentang/Usaha';
 import DetailUsaha from './DetailUsaha/DetailUsaha';
 
 

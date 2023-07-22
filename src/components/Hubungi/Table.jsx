@@ -66,7 +66,7 @@ const Table = () => {
             </div>
           </ul>
           <div className='mt-5 hover:text-[#D9D9D9] '>
-            <a href='https://wa.me/082386766267' target='_blank'>
+            <a href='https://wa.me/082386766267' target='_blank' rel="noreferrer">
               {" "}
               <button className='btn rounded-2xl p-3 flex bg-[#D9D9D9]   hover:bg-[#006D33] shadow-xl ml-10'>
                 <img src={wa} width='50' alt='' />

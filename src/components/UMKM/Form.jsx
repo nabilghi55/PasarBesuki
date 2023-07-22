@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import kacang from "../../assets/Kacang.jpg";
 import tas from "../../assets/Handcraft.jpg";
 import rizkyart from "../../assets/Rizkyart.jpg";
+import Harmer from "../../assets/Harmer.jpg";
 import Sosmed from "../Sosmed/Sosmed";
 
 const DetailProduk = () => {
@@ -34,6 +35,7 @@ const DetailProduk = () => {
       id: 4,
       title: "Harmer Marmer",
       content: "Content of Card 4",
+      img:Harmer
     },
   ];
 

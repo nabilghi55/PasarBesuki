@@ -5,12 +5,12 @@ import Gelombang from "./assetsTentang/gelombang (1).png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import kacang from "../../assets/Kacang.jpg";
 import tas from "../../assets/Handcraft.jpg";
 import rizkyart from "../../assets/Rizkyart.jpg";
+import Harmer from "../../assets/Harmer.jpg";
 const Tujuan = () => {
   const cardData = [
     {
@@ -40,7 +40,7 @@ const Tujuan = () => {
       id: 4,
       title: "Harmer Marmer",
       content: "Content of Card 4",
-      img: "Kacang",
+      img: Harmer,
       linkTo: "/belanja/4",
     },
   ];
@@ -57,7 +57,7 @@ const Tujuan = () => {
       </div>
       <div className="my-10 px-6 md:px-24">
         <div className="">
-          <h1 className="text-4xl text-center font-bold">Produk</h1>
+          <h1 className="text-4xl text-center font-bold">UMKM Desa Besuki</h1>
         </div>
         <div className=" justify-center mx-auto items-center  w-full ">
           <div className="lg:flex-wrap lg:flex justify-center items-center text-center  mx-auto">
