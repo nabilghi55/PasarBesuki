@@ -62,7 +62,7 @@ const Tujuan = () => {
         <div className=" justify-center mx-auto items-center  w-full ">
           <div className="lg:flex-wrap lg:flex justify-center items-center text-center  mx-auto">
             {cardData.map((card) => (
-              <div className="mr-10 mt-4  mx-auto">
+              <div className="lg:mr-10 lg:mt-4  mx-auto">
                 <Card
                   linkTo={card.linkTo}
                   img={card.img}
