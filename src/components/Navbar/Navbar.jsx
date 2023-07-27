@@ -104,7 +104,7 @@ export default function NavBar() {
                     <NavLink to="/">Hubungi Kami</NavLink>
                   </Link>
                 </li>
-                <li className="text-black hover:text-[#76CA71] nav-item cursor-pointer">
+                {/* <li className="text-black hover:text-[#76CA71] nav-item cursor-pointer">
                   <Link
                     to="#tentang"
                     spy={true}
@@ -114,7 +114,7 @@ export default function NavBar() {
                   >
                     <NavLink to="/Wisata">Wisata</NavLink>
                   </Link>
-                </li>
+                </li> */}
 
                 <li className="text-black hover:text-[#76CA71] nav-item">
                   <NavLink to="/belanja" activeClassName="active">
